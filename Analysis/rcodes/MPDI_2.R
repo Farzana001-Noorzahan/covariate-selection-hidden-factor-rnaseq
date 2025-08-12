@@ -1,4 +1,4 @@
-###Rcodes for the real data analysis including the surrogate variable analysis and the DE analysis 
+###R code for real data analysis, including surrogate variable analysis (SVA) and differential expression (DE) analysis,. 
 
 library(csrnaseq)
 FixCov <- csrnaseq::FixCov
@@ -103,7 +103,7 @@ results <- list(
 )
 
 # Save to RDS file
-save_path <- "./../analysis/fsr_sva_real_results.rds"
+save_path <- "../analysis/fsr_sva_real_results.rds"
 saveRDS(results, file = save_path)
 
 
@@ -138,7 +138,7 @@ deallsva <- sum(csrnaseq:::jabes.q(Allcovsva$pvs[,1])<= 0.05)
 
 
 
-### Rcodes to produce the Table 2 that contains the relevant covariates for 8 sets of truly relevant covariates
+### Rcodes to produce Table 2 in the manuscript that contains 8 sets of truly relevant covariates.
 
 library(dplyr)
 SelCov <- plyr::laply(list(1, 2, 3, 4, 5, 6, 7, 8), function(i) { # i <- 6
@@ -169,7 +169,7 @@ SelCov %>%
 ### The rcode to create the line plot for the empirical FSR and average R for two different scenarios for different $k_R$ over 100 replications.
 
 # Set directory path
-base_dir <- "./../analysis/SimulationOutsvaruv"
+base_dir <- "../analysis/SimulationOutsvaruv"
 # Find directories and files
 model_dirs <- list.dirs(base_dir, recursive = FALSE)[grepl("ModelSize_\\d+_nGene_2000_B_100_alpha0_0.05_ideal_(TRUE|FALSE)$", list.dirs(base_dir, recursive = FALSE))]
 all_files <- unlist(lapply(model_dirs, function(dir) list.files(dir, pattern = "^nrep_\\d+\\.rds$", full.names = TRUE)))
@@ -257,7 +257,7 @@ ggplot(plot_data_long, aes(x = ModelSize, y = Value, color = Method, shape = Met
 ### The rcode to produce the figure that presents the performance of differential expression analysis of the four methods
 
 # Set directory path
-base_dir <- "./../analysis/SimulationOutsvaruv"
+base_dir <- "../analysis/SimulationOutsvaruv"
 # List and load .rds files
 rds_files <- list.files(path = base_dir, pattern = "\\.rds$", full.names = TRUE)
 invisible(lapply(rds_files, function(file) {
@@ -409,6 +409,128 @@ kable(table_data,
 
 
 
+#### Rcode to create the combined_modelsize_data.rds 
+library(dplyr)
+library(knitr)
+library(purrr)
+library(kableExtra)
+library(tidyr)
+
+# Function to process frequency tables
+generate_combined_frequency_tables <- function(model_sizes) {
+  base_dir <- "../analysis"
+  
+  all_results <- map_dfr(c(FALSE, TRUE), function(scenario) {
+    scenario_label <- ifelse(scenario, "Scenario 1", "Scenario 2")
+    
+    map_dfr(model_sizes, function(model_size) {
+      sim_file <- sprintf("4-Simulation-sva_out/4-Simulation-sva_4163060_%s_%s.out", 
+                          model_size, toupper(scenario))
+      sim_results <- tryCatch(
+        readLines(file.path(base_dir, sim_file)),
+        error = function(e) {
+          message("Error reading file for model size ", model_size, " scenario ", scenario, ": ", e$message)
+          return(NULL)
+        }
+      )
+      
+      if (is.null(sim_results)) return(NULL)
+      
+      surrogate_lines <- grep("significant surrogate variables", sim_results, value = TRUE)
+      num_surrogates <- ifelse(
+        grepl("No significant surrogate variables", surrogate_lines),
+        0,
+        as.numeric(gsub(".*Number of significant surrogate variables is: ", "", surrogate_lines))
+      )
+      
+      data.frame(
+        Replication = rep(1:(length(num_surrogates)/3), each = 3),
+        Method = rep(c("FSR_sva", "SVA0", "SVAall_FSR"), length.out = length(num_surrogates)),
+        Num_Surrogates = num_surrogates,
+        ModelSize = model_size,
+        Scenario = scenario_label
+      )
+    }) %>% 
+      filter(!is.na(Num_Surrogates))
+  })
+  
+  if (nrow(all_results) > 0) {
+    all_results %>%
+      group_by(Scenario, ModelSize, Method, Num_Surrogates) %>%
+      summarise(Frequency = n(), .groups = "drop") %>%
+      arrange(Scenario, ModelSize, Method, Num_Surrogates)
+  } else {
+    return(NULL)
+  }
+}
+
+create_formatted_tables <- function(data) {
+  if (is.null(data) || nrow(data) == 0) {
+    cat("No frequency data available for the specified model sizes.")
+    return()
+  }
+  
+  # Generate all tables first
+  tables <- data %>%
+    split(.$ModelSize) %>%
+    map(~ {
+      current_model_size <- unique(.x$ModelSize)
+      
+      scenario_tables <- .x %>%
+        split(.$Scenario) %>%
+        map(~ {
+          .x %>%
+            select(Method, Num_Surrogates, Frequency) %>%
+            arrange(Method, Num_Surrogates)
+        })  # <-- Closing parenthesis for inner map(~ {...})
+      
+      combined <- scenario_tables[[1]] %>%
+        full_join(scenario_tables[[2]], 
+                  by = c("Method", "Num_Surrogates"),
+                  suffix = c("_S1", "_S2")) %>%
+        replace_na(list(Frequency_S2 = 0, Frequency_S1 = 0)) %>%
+        arrange(Method, Num_Surrogates)
+      
+      # Save the combined dataset as RDS file
+      base_dir <- "base_dir <- "../analysis""
+      save_file <- file.path(base_dir, paste0("combined_frequency_modelsize_", current_model_size, ".rds"))
+      saveRDS(combined, save_file)
+    })  
+}
+
+library(ggplot2)
+library(gridExtra)
+library(grid)
+
+# Set the base path
+base_path <- "../analysis/"
+
+# Create a list of all 8 dataframes
+df_list <- list()
+
+# Loop through each model size (1 to 8) and load the dataframes
+for (i in 1:8) {
+  file_name <- paste0("combined_frequency_modelsize_", i, ".rds")
+  file_path <- paste0(base_path, file_name)
+  
+  # Load the dataframe and add model size identifier
+  df_list[[i]] <- readRDS(file_path) %>% 
+    dplyr::mutate(Model_Size = paste0(i))
+}
+
+# Combine all dataframes into one
+combined_df <- dplyr::bind_rows(df_list)
+
+# Save the combined dataframe
+saveRDS(combined_df, file = paste0(base_path, "combined_modelsize_data.rds"))
+
+# Print the structure to verify
+str(combined_df)
+
+
+
+
+
 ### Rcode to create the Bar plot for the frequency for the number of surrogate variables estimated via three methods FSR_sva, SVA0 and SVAall_FSR
 
 library(tidyr)
@@ -416,7 +538,7 @@ library(ggplot2)
 library(dplyr)  
 library(magrittr)  
 # 1. Load and prepare data
-combined_data <- readRDS("./../analysis/combined_modelsize_data.rds")
+combined_data <- readRDS("../analysis/combined_modelsize_data.rds")
 
 long_data <- pivot_longer(
   combined_data,
