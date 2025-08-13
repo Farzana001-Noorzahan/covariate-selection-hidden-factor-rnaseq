@@ -83,8 +83,8 @@ ideal <- Scenarios$ideal[env]
 # Create output directory if it doesn't exist
 dir.create("results", showWarnings = FALSE)
 
-#FSRnSimBS_sva_ruv
-FSR1SimBS_sva_ruv <- function(RealDataOut, nGene, nrep, B, m, lambdamax, alpha0, ncores, print.progress, saveall = FALSE, savesim = TRUE, ideal = TRUE){
+#FSRnSimBS_sva
+FSR1SimBS_sva <- function(RealDataOut, nGene, nrep, B, m, lambdamax, alpha0, ncores, print.progress, saveall = FALSE, savesim = TRUE, ideal = TRUE){
   FixCov <- RealDataOut$FixCov # the main factor of interest
   VarCov0 <- RealDataOut$VarCov # all available known covariates
   if(ideal){
@@ -156,40 +156,6 @@ FSR1SimBS_sva_ruv <- function(RealDataOut, nGene, nrep, B, m, lambdamax, alpha0,
   
   FSRsvacov
   
-  ## FSR and then ruv--------
-  if(ncol(FSRsvacov)>0){
-     set<-EDASeq::newSeqExpressionSet(as.matrix(SimCnt_filtered), phenoData = data.frame(cbind(FixCov, BestCovOut), row.names = colnames(SimCnt_filtered)))
-
-     design <- model.matrix(~., data=Biobase::pData(set))
-  
-     y_count <- edgeR::DGEList(counts=EDASeq::counts(set), group=FixCov$Line)
-     y_count <- edgeR::calcNormFactors(y_count, method="upperquartile")
-     y_count <- edgeR::estimateGLMCommonDisp(y_count, design)
-     y_count <- edgeR::estimateGLMTagwiseDisp(y_count, design)
-  
-     fit <- edgeR::glmFit(y_count, design)
-     lrt <- edgeR::glmLRT(fit, coef=2)
-     top <- edgeR::topTags(lrt, n=nrow(set))$table
-    nde<-  nrow(SimCnt_filtered) - csrnaseq:::estimate.m0(top$PValue)
-  
-    empirical <- rownames(set)[which(!(rownames(set) %in% rownames(top)[1:nde]))]
-    set2 <- RUVSeq::RUVg(EDASeq::counts(set), empirical, k=ncol(FSRsvacov))
-  
-    FSRruvcov <- data.frame(set2$W)
- 
-    names(FSRruvcov) <- paste0("ruv", 1:ncol(FSRruvcov))
-    ruvcov_on_FSR <- cbind(BestCovOut, FSRruvcov)} else{
-    FSRruvcov<- FSRsvacov
-    ruvcov_on_FSR<-BestCovOut
-    
- }
-  
-  
-  FSRruv <- csrnaseq:::DEAeval(p = csrnaseq:::VoomPv(counts = SimCnt_filtered,
-                                                     AllCov = cbind(FixCov,ruvcov_on_FSR))$pvs[,"Line"],
-                               lab = lab,  method = "FSRruv")
-  
-  FSRruvcov
   
   # sva on nothing-----
   
@@ -201,32 +167,7 @@ FSR1SimBS_sva_ruv <- function(RealDataOut, nGene, nrep, B, m, lambdamax, alpha0,
                                                    AllCov = cbind(FixCov,svacov0))$pvs[,"Line"],
                              lab = lab,  method = "SVA0")
  svacov0 
-  ##RUV on nothing
-  
-  set<-EDASeq::newSeqExpressionSet(as.matrix(SimCnt_filtered), phenoData = data.frame(FixCov, row.names = colnames(SimCnt_filtered)))
-  
-  design <- model.matrix(~., data=Biobase::pData(set))
-  
-  y_count <- edgeR::DGEList(counts=EDASeq::counts(set), group=FixCov$Line)
-  y_count <- edgeR::calcNormFactors(y_count, method="upperquartile")
-  y_count <- edgeR::estimateGLMCommonDisp(y_count, design)
-  y_count <- edgeR::estimateGLMTagwiseDisp(y_count, design)
-  
-  fit <- edgeR::glmFit(y_count, design) 
-  lrt <- edgeR::glmLRT(fit, coef=2)
-  top <- edgeR::topTags(lrt, n=nrow(set))$table
-  nde<-  nrow(SimCnt_filtered) - csrnaseq:::estimate.m0(top$PValue) 
-  
-  empirical <- rownames(set)[which(!(rownames(set) %in% rownames(top)[1:nde]))]
-  set2 <- RUVSeq::RUVg(EDASeq::counts(set), empirical, k=ncol(svacov0))
-  ruvcov0 <-  data.frame(set2$W)
-   names(ruvcov0) <- paste0("ruv", 1:ncol(ruvcov0))
-  RUV0 <- csrnaseq:::DEAeval(p = csrnaseq:::VoomPv(counts = SimCnt_filtered,
-                                                   AllCov = cbind(FixCov,ruvcov0))$pvs[,"Line"],
-                             lab = lab,  method = "RUV0")
-   ruvcov0                          
-  
-  
+
   # sva on everything then FSR-----
   
   mod0 <- model.matrix(~., data =  VarCov)
@@ -270,52 +211,8 @@ FSR1SimBS_sva_ruv <- function(RealDataOut, nGene, nrep, B, m, lambdamax, alpha0,
   names(FSROut.SVAallFSR) <- paste0("FSR.", c("S", "R", "U", "FSP"), ".OWN.RE")
    
    
-  #ruv on everything then FSR
-  if(ncol(svacovall )>0){
-  set_all<-EDASeq::newSeqExpressionSet(as.matrix(SimCnt_filtered), phenoData = data.frame(cbind(FixCov, VarCov), row.names = colnames(SimCnt_filtered)))
  
-  design_all <- model.matrix(~., data=Biobase::pData(set_all))
-    
-  y_count_all <- edgeR::DGEList(counts=EDASeq::counts(set_all), group=FixCov$Line)
-  y_count_all <- edgeR::calcNormFactors(y_count_all, method="upperquartile")
-  y_count_all <- edgeR::estimateGLMCommonDisp(y_count_all, design_all)
-  y_count_all <- edgeR::estimateGLMTagwiseDisp(y_count_all, design_all)
-    
-  fit_all <- edgeR::glmFit(y_count_all, design_all)
-  lrt_all <- edgeR::glmLRT(fit_all, coef=2)
-  top_all <- edgeR::topTags(lrt_all, n=nrow(set_all))$table
-  nde_all<-  nrow(SimCnt_filtered) - csrnaseq:::estimate.m0(top_all$PValue) # this is not working
-    
-  empirical_all <- rownames(set_all)[which(!(rownames(set_all) %in% rownames(top_all)[1:nde_all]))]
-  set2 <- RUVSeq::RUVg(EDASeq::counts(set), empirical_all, k=ncol(svacovall))
-  ruvcovall <- data.frame(set2$W)
- 
-  names(ruvcovall) <- paste0("ruv", 1:ncol(ruvcovall))
-  if(m + ncol(ruvcovall) + ncol(design) >= nrow(design)) m <- max(1, nrow(design) - ncol(design) - ncol(ruvcovall) - 1)
-  SimCntOut_ruv_FSR <- csrnaseq::FSRAnalysisBS(#counts = SimCnt$SimCnt,
-  counts = SimCnt_filtered,
-  FixCov, cbind(VarCov, ruvcovall),
-  option, B, m,lambdamax,
-  alpha0, ncores,print.progress, saveall)
-    
-  BestCovOut_ruv_FSR <- cbind(VarCov,ruvcovall)[names(SimCntOut_ruv_FSR$BestCovOut$BestRE)]
-  RUVall_FSR <- csrnaseq:::DEAeval(p = csrnaseq:::VoomPv(counts = SimCnt_filtered,
-                                                           AllCov = cbind(FixCov,BestCovOut_ruv_FSR))$pvs[,"Line"],
-                                     lab = lab,  method = "RUVall_FSR")
-  ruvcov_on_FSR <- cbind(BestCovOut, ruvcovall)} else{ # RUVall_FSR <-OnlyFSR
-    ruvcovall<- svacovall
-    BestCovOut <- VarCov[names(SimCntOut$BestCovOut$BestRE)]
-    RUVall_FSR<- csrnaseq:::DEAeval(p = csrnaseq:::VoomPv(counts = SimCnt_filtered,
-                                                          AllCov = cbind(FixCov,BestCovOut))$pvs[,"Line"],
-                                    lab = lab,  method = "RUVall_FSR")
-  }
-  
- ruvcovall
- 
-
- 
- 
-  DEAevalOut <- c(OnlyFSR, FSRsva, FSRruv, SVA0, RUV0, SVAall_FSR, RUVall_FSR,
+  DEAevalOut <- c(OnlyFSR, FSRsva, SVA0, SVAall_FSR,
                   OnlyLine, All, Oracle)
   
   SimOut <- list(SimCnt = SimCnt,
@@ -329,16 +226,13 @@ FSR1SimBS_sva_ruv <- function(RealDataOut, nGene, nrep, B, m, lambdamax, alpha0,
                  VarCov0 = VarCov0,
                  VarCov = VarCov,
                  FSRsvacov = FSRsvacov,
-                 FSRruvcov = FSRruvcov,
                  svacov0 = svacov0,
-                 ruvcov0 = ruvcov0,
-                 svacovall = svacovall,
-                 ruvcovall = ruvcovall
+                 svacovall = svacovall
                  )
   
   ModelSize <- length(RealDataOut$BestCovOut$BestER)
   if(savesim){
-    SimPath <- paste0("SimulationOutsvaruv/ModelSize_", ModelSize, "_nGene_", nGene, "_B_", B,  "_alpha0_", alpha0, "_ideal_", ideal)
+    SimPath <- paste0("SimulationOutsva/ModelSize_", ModelSize, "_nGene_", nGene, "_B_", B,  "_alpha0_", alpha0, "_ideal_", ideal)
     dir.create(path = SimPath, showWarnings = F, recursive = T)
     saveRDS(SimOut, file = paste0(SimPath, "/nrep_", nrep, ".rds"))
   }
@@ -354,15 +248,15 @@ FSR1SimBS_sva_ruv <- function(RealDataOut, nGene, nrep, B, m, lambdamax, alpha0,
   SimSelCov
 }
 
-FSRnSimBS_sva_ruv<- function(RealDataOut, nGene, nSim, B, m, lambdamax, alpha0, ncores, print.progress,saveall = FALSE, savesim = TRUE, ideal = TRUE){
+FSRnSimBS_sva<- function(RealDataOut, nGene, nSim, B, m, lambdamax, alpha0, ncores, print.progress,saveall = FALSE, savesim = TRUE, ideal = TRUE){
   nSimSelCov <- plyr::ldply(nSim, function(nrep){
-    FSR1SimBSOut <- FSR1SimBS_sva_ruv(RealDataOut, nGene, nrep, B, m, lambdamax, alpha0, ncores, print.progress, saveall, savesim, ideal)
+    FSR1SimBSOut <- FSR1SimBS_sva(RealDataOut, nGene, nrep, B, m, lambdamax, alpha0, ncores, print.progress, saveall, savesim, ideal)
     c(FSR1SimBSOut$FSROut, FSR1SimBSOut$DEAevalOut)
   })
   res <- list(TrueSelCov = names(RealDataOut$BestCovOut$BestER),
               nSimSelCov = nSimSelCov)
   ModelSize <- length(RealDataOut$BestCovOut$BestER)
-  SimPath <- paste0("SimulationOutsvaruv/ModelSize_", ModelSize, "_nGene_", nGene, "_B_", B, "_m_", m,  "_alpha0_", alpha0, "_ideal_", ideal)
+  SimPath <- paste0("SimulationOutsva/ModelSize_", ModelSize, "_nGene_", nGene, "_B_", B, "_m_", m,  "_alpha0_", alpha0, "_ideal_", ideal)
   dir.create(path = SimPath, showWarnings = F, recursive = T)
   saveRDS(res, file = paste0(SimPath, "/nSim_", min(nSim), "_", max(nSim), ".rds"))
   saveRDS(res, file = paste0(SimPath, "_nSim_", min(nSim), "_", max(nSim), ".rds"))
@@ -371,15 +265,15 @@ FSRnSimBS_sva_ruv<- function(RealDataOut, nGene, nSim, B, m, lambdamax, alpha0, 
 
 
 # Run simulation
-FSRSimOut_sva_ruv<- FSRnSimBS_sva_ruv(RealDataOut, nGene, nSim, B, m, lambdamax, alpha0, ncores, print.progress, saveall, savesim, ideal)
+FSRSimOut_sva<- FSRnSimBS_sva(RealDataOut, nGene, nSim, B, m, lambdamax, alpha0, ncores, print.progress, saveall, savesim, ideal)
 
-FSRSimOut_sva_ruv
+FSRSimOut_sva
 
-means <- colMeans(FSRSimOut_sva_ruv$nSimSelCov)
-sds <- apply(FSRSimOut_sva_ruv$nSimSelCov, 2, sd)
+means <- colMeans(FSRSimOut_sva$nSimSelCov)
+sds <- apply(FSRSimOut_sva$nSimSelCov, 2, sd)
 
 # Save results with scenario number in filename
-saveRDS(FSRSimOut_sva_ruv, file = paste0("results/FSRSimOut_sva_ruv_scenario_", env, ".rds"))
+saveRDS(FSRSimOut_sva, file = paste0("results/FSRSimOut_sva_scenario_", env, ".rds"))
 
 # Calculate and print execution time
 runtime <- proc.time() - pm1
