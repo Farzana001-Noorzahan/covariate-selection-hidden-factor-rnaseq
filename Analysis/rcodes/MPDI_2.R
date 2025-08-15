@@ -143,7 +143,7 @@ deallsva <- sum(csrnaseq:::jabes.q(Allcovsva$pvs[,1])<= 0.05)
 library(dplyr)
 SelCov <- plyr::laply(list(1, 2, 3, 4, 5, 6, 7, 8), function(i) { # i <- 6
   # Use the full local path to read RDS files
-  simRFI <- readRDS(paste0("./../analysis/RealDataOutBS/ModelSize_", i, ".rds"))
+  simRFI <- readRDS(paste0("./../Analysis/RealDataOutBS/ModelSize_", i, ".rds"))
   
   lowercase_name <- c("baso", "eosi", "lymp", "mono", "neut")
   best_re_name <- names(simRFI$BestCovOut$BestER)
@@ -169,7 +169,7 @@ SelCov %>%
 ### The rcode to create the line plot for the empirical FSR and average R for two different scenarios for different $k_R$ over 100 replications.
 
 # Set directory path
-base_dir <- "../analysis/SimulationOutsvaruv"
+base_dir <- "../Analysis/SimulationOutsva"
 # Find directories and files
 model_dirs <- list.dirs(base_dir, recursive = FALSE)[grepl("ModelSize_\\d+_nGene_2000_B_100_alpha0_0.05_ideal_(TRUE|FALSE)$", list.dirs(base_dir, recursive = FALSE))]
 all_files <- unlist(lapply(model_dirs, function(dir) list.files(dir, pattern = "^nrep_\\d+\\.rds$", full.names = TRUE)))
@@ -257,7 +257,7 @@ ggplot(plot_data_long, aes(x = ModelSize, y = Value, color = Method, shape = Met
 ### The rcode to produce the figure that presents the performance of differential expression analysis of the four methods
 
 # Set directory path
-base_dir <- "../analysis/SimulationOutsvaruv"
+base_dir <- "../Analysis/SimulationOutsva"
 # List and load .rds files
 rds_files <- list.files(path = base_dir, pattern = "\\.rds$", full.names = TRUE)
 invisible(lapply(rds_files, function(file) {
@@ -411,25 +411,31 @@ kable(table_data,
 
 #### Rcode to create the combined_modelsize_data.rds 
 library(dplyr)
-library(knitr)
 library(purrr)
-library(kableExtra)
 library(tidyr)
 
 # Function to process frequency tables
 generate_combined_frequency_tables <- function(model_sizes) {
-  base_dir <- "../analysis"
+  # Fixed path - points to 4-Simulation-sva_out_new inside Analysis
+  base_dir <- file.path(dirname(getwd()), "Analysis", "4-Simulation-sva_out_new")
   
   all_results <- map_dfr(c(FALSE, TRUE), function(scenario) {
     scenario_label <- ifelse(scenario, "Scenario 1", "Scenario 2")
     
     map_dfr(model_sizes, function(model_size) {
-      sim_file <- sprintf("4-Simulation-sva_out/4-Simulation-sva_4163060_%s_%s.out", 
+      sim_file <- sprintf("4-Simulation-sva_4653268_%s_%s.out", 
                           model_size, toupper(scenario))
+      full_path <- file.path(base_dir, sim_file)
+      
+      if (!file.exists(full_path)) {
+        message("File not found: ", full_path)
+        return(NULL)
+      }
+      
       sim_results <- tryCatch(
-        readLines(file.path(base_dir, sim_file)),
+        readLines(full_path),
         error = function(e) {
-          message("Error reading file for model size ", model_size, " scenario ", scenario, ": ", e$message)
+          message("Error reading file: ", e$message)
           return(NULL)
         }
       )
@@ -464,69 +470,56 @@ generate_combined_frequency_tables <- function(model_sizes) {
   }
 }
 
+# Function to create and save formatted tables
 create_formatted_tables <- function(data) {
   if (is.null(data) || nrow(data) == 0) {
-    cat("No frequency data available for the specified model sizes.")
+    message("No data to process")
     return()
   }
   
-  # Generate all tables first
-  tables <- data %>%
-    split(.$ModelSize) %>%
-    map(~ {
-      current_model_size <- unique(.x$ModelSize)
-      
-      scenario_tables <- .x %>%
-        split(.$Scenario) %>%
-        map(~ {
-          .x %>%
-            select(Method, Num_Surrogates, Frequency) %>%
-            arrange(Method, Num_Surrogates)
-        })  # <-- Closing parenthesis for inner map(~ {...})
-      
-      combined <- scenario_tables[[1]] %>%
-        full_join(scenario_tables[[2]], 
-                  by = c("Method", "Num_Surrogates"),
-                  suffix = c("_S1", "_S2")) %>%
-        replace_na(list(Frequency_S2 = 0, Frequency_S1 = 0)) %>%
-        arrange(Method, Num_Surrogates)
-      
-      # Save the combined dataset as RDS file
-      base_dir <- "base_dir <- "../analysis""
-      save_file <- file.path(base_dir, paste0("combined_frequency_modelsize_", current_model_size, ".rds"))
-      saveRDS(combined, save_file)
-    })  
-}
-
-library(ggplot2)
-library(gridExtra)
-library(grid)
-
-# Set the base path
-base_path <- "../analysis/"
-
-# Create a list of all 8 dataframes
-df_list <- list()
-
-# Loop through each model size (1 to 8) and load the dataframes
-for (i in 1:8) {
-  file_name <- paste0("combined_frequency_modelsize_", i, ".rds")
-  file_path <- paste0(base_path, file_name)
+  # Fixed output directory - points to Analysis folder
+  output_dir <- file.path(dirname(getwd()), "Analysis")
+  if (!dir.exists(output_dir)) {
+    dir.create(output_dir)
+  }
   
-  # Load the dataframe and add model size identifier
-  df_list[[i]] <- readRDS(file_path) %>% 
-    dplyr::mutate(Model_Size = paste0(i))
+  data %>%
+    split(.$ModelSize) %>%
+    walk(~ {
+      current_size <- unique(.x$ModelSize)
+      output_file <- file.path(output_dir, 
+                               paste0("combined_frequency_modelsize_", 
+                                      current_size, ".rds"))
+      saveRDS(.x, output_file)
+      message("Saved: ", output_file)
+    })
 }
 
-# Combine all dataframes into one
-combined_df <- dplyr::bind_rows(df_list)
-
-# Save the combined dataframe
-saveRDS(combined_df, file = paste0(base_path, "combined_modelsize_data.rds"))
-
-# Print the structure to verify
-str(combined_df)
-
+# Main execution block
+tryCatch({
+  # Generate frequency tables
+  freq_tables <- generate_combined_frequency_tables(1:8)
+  
+  # Create and save formatted tables
+  if (!is.null(freq_tables)) {
+    create_formatted_tables(freq_tables)
+    
+    # Combine all model sizes
+    combined_df <- map_dfr(1:8, ~ {
+      file_path <- file.path(dirname(getwd()), "Analysis",
+                             paste0("combined_frequency_modelsize_", .x, ".rds"))
+      if (file.exists(file_path)) readRDS(file_path)
+    })
+    
+    if (nrow(combined_df) > 0) {
+      saveRDS(combined_df, 
+              file.path(dirname(getwd()), "Analysis", "combined_modelsize_data.rds"))
+      message("Successfully saved combined data")
+    }
+  }
+}, error = function(e) {
+  message("Error in pipeline: ", e$message)
+})
 
 
 
@@ -538,22 +531,17 @@ library(ggplot2)
 library(dplyr)  
 library(magrittr)  
 # 1. Load and prepare data
-combined_data <- readRDS("../analysis/combined_modelsize_data.rds")
+combined_data <- readRDS("../Analysis/combined_modelsize_data.rds")
 
-long_data <- pivot_longer(
-  combined_data,
-  cols = c(Frequency_S1, Frequency_S2),
-  names_to = "Scenario",
-  values_to = "Frequency"
-) %>%
+long_data <- combined_data %>%
   mutate(
-    Model_Size = gsub("modelsize_", "", Model_Size),
+    ModelSize = as.character(ModelSize),  # Convert to character if needed
     Method_Scenario = case_when(
-      Method == "SVA0" & Scenario == "Frequency_S1" ~ NA_character_,
-      TRUE ~ paste0(Method, " (", gsub("Frequency_", "", Scenario), ")")
+      Method == "SVA0" & Scenario == "Scenario 1" ~ NA_character_,
+      TRUE ~ paste0(Method, " (", gsub("Scenario ", "S", Scenario), ")")
     ),
     # Create new label column with proper formatting
-    Model_Size_Label = paste0("k[R]==", Model_Size)
+    Model_Size_Label = paste0("k[R]==", ModelSize)
   ) %>%
   filter(!is.na(Method_Scenario))
 
@@ -599,7 +587,7 @@ covariate_map <- list(
 
 # 2. Main analysis function (unchanged)
 calculate_r_squared <- function(model_sizes = 1:8) {
-  base_dir <- "./../analysis"
+  base_dir <- "../Analysis"
   all_results <- list()
   
   for (size in model_sizes) {
@@ -607,7 +595,7 @@ calculate_r_squared <- function(model_sizes = 1:8) {
     if (is.null(cov_cols)) next
     
     model_dir <- file.path(base_dir,
-                           sprintf("SimulationOutsvaruv/ModelSize_%s_nGene_2000_B_100_alpha0_0.05_ideal_FALSE", size))
+                           sprintf("SimulationOutsva/ModelSize_%s_nGene_2000_B_100_alpha0_0.05_ideal_FALSE", size))
     
     if (!dir.exists(model_dir)) next
     

@@ -1,0 +1,2022 @@
+Running task ID: 10
+Job ID: 4163147
+Node: d1-w6420a-19
+[1] "Running scenario 10"
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.69  s
+Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.939  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.14  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.282  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.523  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  29.451  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.784  s
+Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.821  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  27.275  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.437  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.486  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.386  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.133  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.647  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.003  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.825  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.193  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.709  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.682  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.645  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.029  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.626  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.101  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.751  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.207  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.302  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.729  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.959  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.139  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.453  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.131  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  27.953  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  27.218  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.747  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.79  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.357  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.401  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  27.659  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  28.451  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.023  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  29.373  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  28.374  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.697  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.774  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.317  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  18.472  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.205  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.671  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.808  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.623  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.882  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.031  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  30.424  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  27.927  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.634  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.862  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.7  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  18.913  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.178  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.336  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.38  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.503  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.932  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.827  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.428  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.573  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.5  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.938  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.492  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.248  s
+Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.416  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.471  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.742  s
+Number of significant surrogate variables is:  6 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.679  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.863  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.002  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.454  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.656  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.096  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.317  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.267  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.636  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.347  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.751  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.103  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.492  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.24  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.48  s
+Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.495  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  27.641  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.574  s
+Number of significant surrogate variables is:  8 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  28.086  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  27.297  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.988  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.729  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.786  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.131  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.886  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.177  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.877  s
+Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.085  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.999  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.471  s
+Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.134  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.522  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.771  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.732  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.992  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.794  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.814  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.665  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.244  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.116  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.972  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.142  s
+Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  28.126  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  28.103  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.181  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.702  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.027  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.285  s
+Number of significant surrogate variables is:  6 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  30.571  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  29.697  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  18.615  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.939  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.688  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.083  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.722  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.895  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.722  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.108  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.807  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  18.808  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.323  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.361  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.513  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.947  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.309  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.124  s
+Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.366  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  27.553  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.046  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.196  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.584  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.589  s
+Number of significant surrogate variables is:  9 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.26  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.374  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.276  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.183  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.616  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.046  s
+Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.747  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.719  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.047  s
+Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.172  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.641  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.734  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.619  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.308  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.462  s
+Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.96  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.951  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.413  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  27.245  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  27.362  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.17  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.611  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.491  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.51  s
+Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.733  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.274  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.469  s
+Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  30.139  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  27.421  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  18.811  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.246  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.093  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.744  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.477  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.846  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.382  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.21  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.681  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.172  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.347  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.486  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.831  s
+Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.823  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.945  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.461  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.898  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.733  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.643  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.593  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.861  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.652  s
+Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.77  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  28.007  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.355  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.247  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.423  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.607  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.551  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.834  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.149  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.776  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.992  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.586  s
+Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.531  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.473  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.923  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.765  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.032  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.045  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.545  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.955  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.971  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.322  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.178  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.55  s
+Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.99  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.488  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.625  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.357  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.145  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.967  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.502  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.971  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.626  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.938  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.127  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.399  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.775  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.398  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.684  s
+Number of significant surrogate variables is:  6 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.136  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.783  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.086  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.144  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.51  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.21  s
+Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.918  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.62  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.856  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.617  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.705  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  18.702  s
+Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.709  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.935  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.579  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.054  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.492  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.83  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.901  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.894  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.123  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.158  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.287  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.691  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.338  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.596  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.09  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.941  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.209  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.905  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.144  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.295  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.506  s
+Number of significant surrogate variables is:  6 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.876  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.179  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.463  s
+Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.332  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.618  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.986  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.335  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.642  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.192  s
+Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.778  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.712  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.853  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.58  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.945  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.943  s
+Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.772  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.219  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  20.336  s
+Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.963  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  22.112  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.987  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.002  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.902  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.333  s
+Number of significant surrogate variables is:  5 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  4 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  26.054  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.349  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.799  s
+Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  1 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  24.01  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  21.801  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  19.686  s
+Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  3 
+Iteration (out of 5 ):1  2  3  4  5  Number of significant surrogate variables is:  2 
+Iteration (out of 5 ):1  2  3  4  5  Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  25.638  s
+Option= OWN , B= 100 , m= 3 , alpha0 =  0.05 
+Option= OWN , B= 100 , m= 3  runs in  23.644  s
+$TrueSelCov
+[1] "mono"  "Concb"
+
+$nSimSelCov
+    FSR.S.OWN.RE FSR.R.OWN.RE FSR.U.OWN.RE FSR.FSP.OWN.RE DEA.NTP.OnlyFSR
+1              1            2            1      0.3333333             102
+2              1            2            1      0.3333333             104
+3              1            2            1      0.3333333             146
+4              1            2            1      0.3333333              87
+5              1            2            1      0.3333333             115
+6              1            2            1      0.3333333             104
+7              1            2            1      0.3333333             121
+8              1            2            1      0.3333333             100
+9              1            2            1      0.3333333              99
+10             1            2            1      0.3333333              96
+11             1            2            1      0.3333333              97
+12             1            2            1      0.3333333             107
+13             1            2            1      0.3333333             125
+14             1            2            1      0.3333333             136
+15             1            2            1      0.3333333              89
+16             1            2            1      0.3333333             114
+17             1            2            1      0.3333333             114
+18             1            2            1      0.3333333             122
+19             1            2            1      0.3333333             112
+20             1            2            1      0.3333333              91
+21             1            2            1      0.3333333             120
+22             1            2            1      0.3333333              92
+23             1            2            1      0.3333333              70
+24             1            2            1      0.3333333             108
+25             1            2            1      0.3333333             115
+26             1            2            1      0.3333333             112
+27             1            2            1      0.3333333             123
+28             1            2            1      0.3333333             120
+29             1            2            1      0.3333333             113
+30             1            2            1      0.3333333              81
+31             1            2            1      0.3333333             116
+32             1            2            1      0.3333333              80
+33             1            2            1      0.3333333             108
+34             1            2            1      0.3333333             101
+35             1            2            1      0.3333333             123
+36             1            2            1      0.3333333             131
+37             1            2            1      0.3333333             103
+38             1            2            1      0.3333333             112
+39             1            2            1      0.3333333             124
+40             1            2            1      0.3333333              93
+41             1            2            1      0.3333333              78
+42             1            2            1      0.3333333             112
+43             1            2            1      0.3333333              86
+44             1            2            1      0.3333333              98
+45             1            2            1      0.3333333             115
+46             1            2            1      0.3333333              94
+47             1            2            1      0.3333333             107
+48             1            2            1      0.3333333             104
+49             1            2            1      0.3333333              87
+50             1            2            1      0.3333333             138
+51             1            2            1      0.3333333             103
+52             1            2            1      0.3333333             101
+53             1            2            1      0.3333333             124
+54             1            2            1      0.3333333             104
+55             1            2            1      0.3333333              69
+56             1            2            1      0.3333333             141
+57             1            2            1      0.3333333             106
+58             1            2            1      0.3333333              98
+59             1            2            1      0.3333333              99
+60             1            2            1      0.3333333             107
+61             1            2            1      0.3333333              85
+62             1            2            1      0.3333333             124
+63             1            2            1      0.3333333             102
+64             1            2            1      0.3333333             130
+65             1            2            1      0.3333333              87
+66             1            2            1      0.3333333             130
+67             1            2            1      0.3333333             158
+68             1            2            1      0.3333333             109
+69             1            2            1      0.3333333             104
+70             1            2            1      0.3333333             121
+71             1            2            1      0.3333333             106
+72             1            2            1      0.3333333              82
+73             1            2            1      0.3333333             114
+74             1            2            1      0.3333333             109
+75             1            2            1      0.3333333             107
+76             1            2            1      0.3333333             118
+77             1            2            1      0.3333333              84
+78             1            2            1      0.3333333             110
+79             1            2            1      0.3333333             117
+80             1            2            1      0.3333333              78
+81             1            2            1      0.3333333              99
+82             1            2            1      0.3333333             120
+83             1            2            1      0.3333333              79
+84             1            2            1      0.3333333              97
+85             1            2            1      0.3333333             111
+86             1            2            1      0.3333333             100
+87             1            2            1      0.3333333             119
+88             1            2            1      0.3333333             114
+89             1            2            1      0.3333333             110
+90             1            2            1      0.3333333             105
+91             1            2            1      0.3333333             115
+92             1            2            1      0.3333333              88
+93             1            2            1      0.3333333             122
+94             1            2            1      0.3333333             124
+95             1            2            1      0.3333333              71
+96             1            2            1      0.3333333             106
+97             1            2            1      0.3333333              85
+98             1            2            1      0.3333333             133
+99             1            2            1      0.3333333             146
+100            1            2            1      0.3333333              63
+    DEA.R.OnlyFSR DEA.V.OnlyFSR DEA.FDP.OnlyFSR DEA.PAUC.OnlyFSR DEA.NTP.FSRsva
+1             109             7     0.064220183       0.02039882             79
+2             108             4     0.037037037       0.02184054            129
+3             152             6     0.039473684       0.02478866             97
+4              91             4     0.043956044       0.02152890             96
+5             118             3     0.025423729       0.02390343            140
+6             105             1     0.009523810       0.02242264            119
+7             127             6     0.047244094       0.02105825            148
+8             103             3     0.029126214       0.02250312            127
+9             102             3     0.029411765       0.02215869            115
+10             96             0     0.000000000       0.02255811            110
+11            101             4     0.039603960       0.02046434            126
+12            111             4     0.036036036       0.02318086            120
+13            128             3     0.023437500       0.02301277            153
+14            139             3     0.021582734       0.02432739            159
+15             95             6     0.063157895       0.02147889            107
+16            119             5     0.042016807       0.02242865            136
+17            121             7     0.057851240       0.02106403            111
+18            126             4     0.031746032       0.02358048            136
+19            114             2     0.017543860       0.02354654            141
+20             91             0     0.000000000       0.02268807             95
+21            127             7     0.055118110       0.02120618            151
+22             97             5     0.051546392       0.01895465            118
+23             70             0     0.000000000       0.02135384            110
+24            112             4     0.035714286       0.02059607            112
+25            121             6     0.049586777       0.02191728             94
+26            117             5     0.042735043       0.02281268            131
+27            129             6     0.046511628       0.02106278            124
+28            121             1     0.008264463       0.02298356            138
+29            118             5     0.042372881       0.02240424            118
+30             85             4     0.047058824       0.02073817             62
+31            122             6     0.049180328       0.02133825             85
+32             82             2     0.024390244       0.02117819             99
+33            111             3     0.027027027       0.02310129            126
+34            105             4     0.038095238       0.01940680             56
+35            129             6     0.046511628       0.02300569            128
+36            135             4     0.029629630       0.02380626             90
+37            105             2     0.019047619       0.02208628            127
+38            114             2     0.017543860       0.02179072             92
+39            129             5     0.038759690       0.02230166            128
+40             98             5     0.051020408       0.02254681            110
+41             84             6     0.071428571       0.01969126             57
+42            117             5     0.042735043       0.02523374            113
+43             89             3     0.033707865       0.02203398            110
+44            106             8     0.075471698       0.02078067            106
+45            120             5     0.041666667       0.02208623            139
+46             96             2     0.020833333       0.02171266            133
+47            113             6     0.053097345       0.02143980            107
+48            106             2     0.018867925       0.02232423             82
+49             90             3     0.033333333       0.01968684             58
+50            142             4     0.028169014       0.02333048            144
+51            108             5     0.046296296       0.02341015             75
+52            105             4     0.038095238       0.02063745             93
+53            128             4     0.031250000       0.02208875            105
+54            110             6     0.054545455       0.02119938            128
+55             72             3     0.041666667       0.01903217             61
+56            153            12     0.078431373       0.02230267            175
+57            111             5     0.045045045       0.02046860             87
+58            101             3     0.029702970       0.02396786             78
+59            104             5     0.048076923       0.02087969            122
+60            114             7     0.061403509       0.02030250            133
+61             87             2     0.022988506       0.02312992            116
+62            127             3     0.023622047       0.02200558            123
+63            105             3     0.028571429       0.02428314            100
+64            136             6     0.044117647       0.02228871            131
+65             89             2     0.022471910       0.02182242             86
+66            135             5     0.037037037       0.02249736             72
+67            161             3     0.018633540       0.02576738            185
+68            115             6     0.052173913       0.02250607            118
+69            108             4     0.037037037       0.02127651            106
+70            127             6     0.047244094       0.02158223            123
+71            110             4     0.036363636       0.02222970            114
+72             86             4     0.046511628       0.01771241             90
+73            117             3     0.025641026       0.02408267            100
+74            114             5     0.043859649       0.02247600            107
+75            113             6     0.053097345       0.02061495            142
+76            126             8     0.063492063       0.01881817            100
+77             87             3     0.034482759       0.01953992            115
+78            114             4     0.035087719       0.02335784             41
+79            120             3     0.025000000       0.02253841             93
+80             79             1     0.012658228       0.01921407             94
+81            106             7     0.066037736       0.02267089             67
+82            123             3     0.024390244       0.02324903            122
+83             81             2     0.024691358       0.02264999            108
+84             98             1     0.010204082       0.02305221            108
+85            112             1     0.008928571       0.02385487            138
+86            102             2     0.019607843       0.02339521            108
+87            120             1     0.008333333       0.02304558            146
+88            120             6     0.050000000       0.02077981            137
+89            116             6     0.051724138       0.02104240             97
+90            107             2     0.018691589       0.02265141             94
+91            124             9     0.072580645       0.02217084            122
+92             92             4     0.043478261       0.01952485             92
+93            126             4     0.031746032       0.02279226            117
+94            127             3     0.023622047       0.02320724            141
+95             76             5     0.065789474       0.01966240             97
+96            108             2     0.018518519       0.02357663            130
+97             90             5     0.055555556       0.02220771            105
+98            138             5     0.036231884       0.02337705             90
+99            150             4     0.026666667       0.02261265            171
+100            65             2     0.030769231       0.01917046             92
+    DEA.R.FSRsva DEA.V.FSRsva DEA.FDP.FSRsva DEA.PAUC.FSRsva DEA.NTP.FSRruv
+1             87            8     0.09195402      0.01561214            121
+2            135            6     0.04444444      0.02123416            125
+3            101            4     0.03960396      0.02122821             91
+4            100            4     0.04000000      0.02032649             61
+5            147            7     0.04761905      0.02447993            126
+6            124            5     0.04032258      0.02152025            116
+7            156            8     0.05128205      0.02076497            139
+8            131            4     0.03053435      0.02181504            114
+9            123            8     0.06504065      0.01846877             96
+10           112            2     0.01785714      0.02084515            111
+11           133            7     0.05263158      0.02014669            104
+12           128            8     0.06250000      0.02144343            115
+13           161            8     0.04968944      0.02252081            145
+14           165            6     0.03636364      0.02443702            113
+15           112            5     0.04464286      0.02152138            109
+16           142            6     0.04225352      0.02280750            116
+17           114            3     0.02631579      0.02012764            122
+18           141            5     0.03546099      0.02163430            112
+19           145            4     0.02758621      0.02331554            127
+20            98            3     0.03061224      0.01887091             72
+21           162           11     0.06790123      0.02133447            117
+22           127            9     0.07086614      0.01790919             98
+23           115            5     0.04347826      0.02176208             62
+24           119            7     0.05882353      0.01906943            114
+25           103            9     0.08737864      0.01823107             95
+26           142           11     0.07746479      0.02216895            108
+27           135           11     0.08148148      0.01943012            130
+28           140            2     0.01428571      0.02231719            107
+29           132           14     0.10606061      0.01709800            118
+30            67            5     0.07462687      0.01888058             55
+31            90            5     0.05555556      0.01803063             40
+32           103            4     0.03883495      0.02082348             90
+33           131            5     0.03816794      0.02393097            128
+34            60            4     0.06666667      0.01300375             68
+35           139           11     0.07913669      0.01981171            120
+36            93            3     0.03225806      0.01820921            142
+37           132            5     0.03787879      0.02156419             97
+38            99            7     0.07070707      0.01739236             93
+39           139           11     0.07913669      0.01927963            116
+40           117            7     0.05982906      0.01983667            105
+41            57            0     0.00000000      0.01599266             68
+42           121            8     0.06611570      0.02183252            106
+43           117            7     0.05982906      0.01996289             80
+44           113            7     0.06194690      0.01995789            107
+45           150           11     0.07333333      0.02293354            134
+46           137            4     0.02919708      0.02111185             81
+47           114            7     0.06140351      0.02007821             70
+48            86            4     0.04651163      0.01820102             85
+49            67            9     0.13432836      0.01478605             52
+50           151            7     0.04635762      0.02096132            134
+51            78            3     0.03846154      0.01941680             41
+52            98            5     0.05102041      0.01745361             73
+53           108            3     0.02777778      0.02167711            112
+54           139           11     0.07913669      0.02008014             75
+55            67            6     0.08955224      0.01639615             91
+56           191           16     0.08376963      0.02245836            121
+57            95            8     0.08421053      0.01719944             46
+58            81            3     0.03703704      0.01946719             96
+59           130            8     0.06153846      0.02040617             92
+60           142            9     0.06338028      0.02146770             97
+61           121            5     0.04132231      0.02318644             74
+62           131            8     0.06106870      0.01928841            116
+63           106            6     0.05660377      0.02047294             90
+64           139            8     0.05755396      0.02133749            134
+65            90            4     0.04444444      0.01815984             91
+66            80            8     0.10000000      0.01458191             97
+67           193            8     0.04145078      0.02523330            149
+68           127            9     0.07086614      0.01964151            108
+69           113            7     0.06194690      0.01896983            118
+70           132            9     0.06818182      0.01844141            128
+71           121            7     0.05785124      0.02136373            117
+72            97            7     0.07216495      0.01825835             92
+73           104            4     0.03846154      0.02154800            145
+74           115            8     0.06956522      0.01982072            115
+75           151            9     0.05960265      0.02149480            112
+76           110           10     0.09090909      0.01786233            122
+77           120            5     0.04166667      0.01983698             82
+78            41            0     0.00000000      0.01600407             85
+79            95            2     0.02105263      0.02067231             96
+80            96            2     0.02083333      0.01883250             77
+81            69            2     0.02898551      0.01854445             37
+82           127            5     0.03937008      0.02156885            142
+83           112            4     0.03571429      0.02201612             68
+84           113            5     0.04424779      0.01969007            116
+85           142            4     0.02816901      0.02271886            131
+86           113            5     0.04424779      0.02213207             64
+87           152            6     0.03947368      0.02260393            144
+88           146            9     0.06164384      0.02045597            113
+89           104            7     0.06730769      0.01868950             68
+90           101            7     0.06930693      0.01795278             77
+91           133           11     0.08270677      0.02080138            111
+92           103           11     0.10679612      0.01668243            111
+93           128           11     0.08593750      0.01965426             93
+94           147            6     0.04081633      0.02210663            130
+95           103            6     0.05825243      0.01973489             78
+96           135            5     0.03703704      0.02216719            138
+97           111            6     0.05405405      0.02143477             86
+98            92            2     0.02173913      0.02042659            138
+99           180            9     0.05000000      0.02264626            141
+100           98            6     0.06122449      0.01730894            102
+    DEA.R.FSRruv DEA.V.FSRruv DEA.FDP.FSRruv DEA.PAUC.FSRruv DEA.NTP.SVA0
+1            131           10    0.076335878      0.02072207           78
+2            130            5    0.038461538      0.02196554          117
+3             92            1    0.010869565      0.02075741          177
+4             65            4    0.061538462      0.01490940           94
+5            132            6    0.045454545      0.02405880          142
+6            126           10    0.079365079      0.02006023          126
+7            148            9    0.060810811      0.02090958          141
+8            117            3    0.025641026      0.02166847          116
+9             99            3    0.030303030      0.02126495          116
+10           112            1    0.008928571      0.02213621          107
+11           113            9    0.079646018      0.01789755          127
+12           122            7    0.057377049      0.02161054          130
+13           154            9    0.058441558      0.02190351          150
+14           120            7    0.058333333      0.02003034          153
+15           114            5    0.043859649      0.02144326          109
+16           120            4    0.033333333      0.02203909          133
+17           131            9    0.068702290      0.01949024          138
+18           119            7    0.058823529      0.02058125          142
+19           130            3    0.023076923      0.02339730          161
+20            72            0    0.000000000      0.02253832           90
+21           123            6    0.048780488      0.02138633          148
+22           106            8    0.075471698      0.01805758           94
+23            62            0    0.000000000      0.02103735          122
+24           120            6    0.050000000      0.01974613          132
+25           103            8    0.077669903      0.01756747          155
+26           112            4    0.035714286      0.02227359          119
+27           139            9    0.064748201      0.02012112          133
+28           108            1    0.009259259      0.02250584          121
+29           126            8    0.063492063      0.02026962          123
+30            58            3    0.051724138      0.01451406           82
+31            42            2    0.047619048      0.01421350          128
+32            94            4    0.042553191      0.02058429          102
+33           133            5    0.037593985      0.02284866          118
+34            75            7    0.093333333      0.01526850           85
+35           129            9    0.069767442      0.01996818          128
+36           147            5    0.034013605      0.02260056          135
+37           100            3    0.030000000      0.02209175          120
+38            96            3    0.031250000      0.01823896          113
+39           125            9    0.072000000      0.01951750          121
+40           112            7    0.062500000      0.02064586          115
+41            74            6    0.081081081      0.01549997           91
+42           111            5    0.045045045      0.02486549          112
+43            83            3    0.036144578      0.02097900          112
+44           117           10    0.085470085      0.01990682           83
+45           146           12    0.082191781      0.02203393          152
+46            83            2    0.024096386      0.02141425          120
+47            72            2    0.027777778      0.01818755           94
+48            90            5    0.055555556      0.01835363           93
+49            55            3    0.054545455      0.01500049           81
+50           137            3    0.021897810      0.02327756          147
+51            47            6    0.127659574      0.01501200          111
+52            81            8    0.098765432      0.01558876          100
+53           116            4    0.034482759      0.02017648          144
+54            85           10    0.117647059      0.01545747          129
+55            95            4    0.042105263      0.01939267           79
+56           128            7    0.054687500      0.02252301          165
+57            53            7    0.132075472      0.01091510           71
+58           101            5    0.049504950      0.02284921          107
+59            97            5    0.051546392      0.02043131          117
+60           103            6    0.058252427      0.01926809          130
+61            76            2    0.026315789      0.02213878          106
+62           119            3    0.025210084      0.02170411          129
+63            95            5    0.052631579      0.01952865          119
+64           142            8    0.056338028      0.02207383          130
+65            94            3    0.031914894      0.01891453          110
+66            99            2    0.020202020      0.01763845          146
+67           151            2    0.013245033      0.02553812          174
+68           117            9    0.076923077      0.01825933          112
+69           122            4    0.032786885      0.02104476          142
+70           135            7    0.051851852      0.01963313          132
+71           122            5    0.040983607      0.02140931          138
+72            97            5    0.051546392      0.01798937           96
+73           152            7    0.046052632      0.02358933           79
+74           126           11    0.087301587      0.01994071          127
+75           119            7    0.058823529      0.02024057          129
+76           132           10    0.075757576      0.01841655          128
+77            86            4    0.046511628      0.01891086          117
+78            88            3    0.034090909      0.01757057           59
+79           100            4    0.040000000      0.01998016          128
+80            79            2    0.025316456      0.01876891           80
+81            38            1    0.026315789      0.01481814          116
+82           147            5    0.034013605      0.02303658           97
+83            69            1    0.014492754      0.01822199          130
+84           119            3    0.025210084      0.02260658          142
+85           137            6    0.043795620      0.02298806          139
+86            65            1    0.015384615      0.01844524          118
+87           151            7    0.046357616      0.02118480          150
+88           119            6    0.050420168      0.02034417          101
+89            72            4    0.055555556      0.01478209           99
+90            82            5    0.060975610      0.01755997          113
+91           118            7    0.059322034      0.02065367          131
+92           122           11    0.090163934      0.01739477           87
+93           102            9    0.088235294      0.01728021          129
+94           136            6    0.044117647      0.02110334          136
+95            82            4    0.048780488      0.01824759           90
+96           145            7    0.048275862      0.02221014          133
+97            90            4    0.044444444      0.02178572          109
+98           142            4    0.028169014      0.02190507          142
+99           147            6    0.040816327      0.02256695          147
+100          112           10    0.089285714      0.01761254           95
+    DEA.R.SVA0 DEA.V.SVA0 DEA.FDP.SVA0 DEA.PAUC.SVA0 DEA.NTP.RUV0 DEA.R.RUV0
+1           86          8  0.093023256    0.01463976          148        163
+2          121          4  0.033057851    0.02125410          112        117
+3          191         14  0.073298429    0.02438649          190        204
+4          100          6  0.060000000    0.01906885          119        127
+5          146          4  0.027397260    0.02419781          141        148
+6          137         11  0.080291971    0.01998710          137        146
+7          150          9  0.060000000    0.02045276          128        134
+8          120          4  0.033333333    0.02147304          118        122
+9          123          7  0.056910569    0.02017275           97        102
+10         109          2  0.018348624    0.02096131          123        124
+11         137         10  0.072992701    0.02055990          124        133
+12         137          7  0.051094891    0.02157075          131        135
+13         157          7  0.044585987    0.02268929          166        173
+14         159          6  0.037735849    0.02435987          151        166
+15         113          4  0.035398230    0.02196683          119        123
+16         141          8  0.056737589    0.02258662          126        129
+17         147          9  0.061224490    0.02126789          111        117
+18         147          5  0.034013605    0.02228484          161        170
+19         168          7  0.041666667    0.02395793          139        143
+20          92          2  0.021739130    0.02010216           81         82
+21         158         10  0.063291139    0.02089773          131        139
+22          99          5  0.050505051    0.01971936          101        106
+23         129          7  0.054263566    0.02144426          123        133
+24         142         10  0.070422535    0.02001140          112        119
+25         167         12  0.071856287    0.02206828          139        149
+26         123          4  0.032520325    0.02230670          129        134
+27         142          9  0.063380282    0.01969936          140        149
+28         123          2  0.016260163    0.02175261          129        131
+29         130          7  0.053846154    0.01897304          145        154
+30          86          4  0.046511628    0.01863179           64         67
+31         137          9  0.065693431    0.01933208          123        127
+32         103          1  0.009708738    0.02077591           94         97
+33         123          5  0.040650407    0.02167938          145        155
+34          92          7  0.076086957    0.01650518          120        134
+35         138         10  0.072463768    0.02052545          142        148
+36         142          7  0.049295775    0.02148760          148        154
+37         125          5  0.040000000    0.02139472          120        123
+38         119          6  0.050420168    0.01797043           34         39
+39         131         10  0.076335878    0.02097040          147        157
+40         122          7  0.057377049    0.02204090           99        106
+41          99          8  0.080808081    0.01897610          129        139
+42         120          8  0.066666667    0.02174553          104        109
+43         120          8  0.066666667    0.01991732          103        110
+44          86          3  0.034883721    0.01982537          128        139
+45         161          9  0.055900621    0.02278971          137        143
+46         121          1  0.008264463    0.02209596          123        128
+47          99          5  0.050505051    0.01950692           59         61
+48          97          4  0.041237113    0.01961469           84         87
+49          86          5  0.058139535    0.01870485          132        140
+50         153          6  0.039215686    0.02078009          152        159
+51         117          6  0.051282051    0.02120109          102        105
+52         108          8  0.074074074    0.01842652          138        149
+53         151          7  0.046357616    0.02204446          128        137
+54         137          8  0.058394161    0.02102719          125        130
+55          82          3  0.036585366    0.01855782          105        112
+56         175         10  0.057142857    0.02199922          150        160
+57          74          3  0.040540541    0.01488995           68         73
+58         110          3  0.027272727    0.02168390          121        126
+59         125          8  0.064000000    0.02066598          108        112
+60         135          5  0.037037037    0.02137391          122        132
+61         112          6  0.053571429    0.02194854          127        132
+62         132          3  0.022727273    0.02080105          136        141
+63         122          3  0.024590164    0.02205594          108        109
+64         141         11  0.078014184    0.01949800          156        169
+65         117          7  0.059829060    0.02041861          100        102
+66         152          6  0.039473684    0.02243271          139        144
+67         180          6  0.033333333    0.02456114          166        172
+68         121          9  0.074380165    0.02038682          120        127
+69         153         11  0.071895425    0.02101359          141        146
+70         142         10  0.070422535    0.02018140          148        155
+71         148         10  0.067567568    0.02267877          128        132
+72         102          6  0.058823529    0.01767512          110        118
+73          81          2  0.024691358    0.01907467          140        147
+74         135          8  0.059259259    0.02131423          119        125
+75         139         10  0.071942446    0.02103392          122        131
+76         140         12  0.085714286    0.01803235          140        151
+77         123          6  0.048780488    0.02047680          106        111
+78          60          1  0.016666667    0.01633386          126        134
+79         133          5  0.037593985    0.02228191          120        127
+80          85          5  0.058823529    0.01898043          109        114
+81         124          8  0.064516129    0.02211970          118        126
+82         102          5  0.049019608    0.01881112          134        140
+83         138          8  0.057971014    0.01889630          134        140
+84         147          5  0.034013605    0.02226307          134        137
+85         145          6  0.041379310    0.02310247          137        140
+86         121          3  0.024793388    0.02210711          107        112
+87         158          8  0.050632911    0.02220074          144        153
+88         106          5  0.047169811    0.01993294          118        123
+89         115         16  0.139130435    0.01548359          142        156
+90         120          7  0.058333333    0.01795825          104        107
+91         143         12  0.083916084    0.02202588          120        130
+92         100         13  0.130000000    0.01585761          112        121
+93         140         11  0.078571429    0.01961845          121        127
+94         140          4  0.028571429    0.02237939          146        150
+95          97          7  0.072164948    0.01912950          102        110
+96         138          5  0.036231884    0.02189335          147        154
+97         117          8  0.068376068    0.02174116          105        111
+98         149          7  0.046979866    0.02136188          153        157
+99         159         12  0.075471698    0.02119995          160        170
+100         97          2  0.020618557    0.01818378          105        111
+    DEA.V.RUV0 DEA.FDP.RUV0 DEA.PAUC.RUV0 DEA.NTP.SVAall_FSR DEA.R.SVAall_FSR
+1           15  0.092024540    0.02105323                128              138
+2            5  0.042735043    0.02124878                123              130
+3           14  0.068627451    0.02503984                  0                0
+4            8  0.062992126    0.02096842                 92               99
+5            7  0.047297297    0.02296441                140              147
+6            9  0.061643836    0.02106318                150              161
+7            6  0.044776119    0.02081633                 20               20
+8            4  0.032786885    0.02221541                109              112
+9            5  0.049019608    0.02102133                122              134
+10           1  0.008064516    0.02268227                110              113
+11           9  0.067669173    0.01892319                 33               39
+12           4  0.029629630    0.02361058                130              143
+13           7  0.040462428    0.02360446                135              147
+14          15  0.090361446    0.01923319                154              159
+15           4  0.032520325    0.02215049                102              108
+16           3  0.023255814    0.02125862                118              126
+17           6  0.051282051    0.02021870                142              150
+18           9  0.052941176    0.02163159                  1                1
+19           4  0.027972028    0.02350112                158              166
+20           1  0.012195122    0.02172719                 96               99
+21           8  0.057553957    0.02138360                124              135
+22           5  0.047169811    0.01797068                105              111
+23          10  0.075187970    0.02074213                112              118
+24           7  0.058823529    0.01970417                 24               27
+25          10  0.067114094    0.02074771                133              140
+26           5  0.037313433    0.02202060                114              122
+27           9  0.060402685    0.02098453                131              143
+28           2  0.015267176    0.02256827                131              133
+29           9  0.058441558    0.02178493                 24               24
+30           3  0.044776119    0.01588664                 52               56
+31           4  0.031496063    0.02019602                  2                2
+32           3  0.030927835    0.01974982                100              104
+33          10  0.064516129    0.02260017                122              125
+34          14  0.104477612    0.01837188                114              125
+35           6  0.040540541    0.02300020                135              147
+36           6  0.038961039    0.02331699                 66               68
+37           3  0.024390244    0.02332180                120              126
+38           5  0.128205128    0.01177305                  1                1
+39          10  0.063694268    0.02304906                132              146
+40           7  0.066037736    0.02102081                109              115
+41          10  0.071942446    0.01940465                  0                0
+42           5  0.045871560    0.02343744                108              116
+43           7  0.063636364    0.01987710                104              114
+44          11  0.079136691    0.02133840                107              113
+45           6  0.041958042    0.02233860                139              151
+46           5  0.039062500    0.02127499                121              128
+47           2  0.032786885    0.01703310                115              121
+48           3  0.034482759    0.01996142                112              117
+49           8  0.057142857    0.02041123                 62               64
+50           7  0.044025157    0.02189258                141              148
+51           3  0.028571429    0.02295209                108              112
+52          11  0.073825503    0.02048465                131              139
+53           9  0.065693431    0.02089944                105              110
+54           5  0.038461538    0.02095301                131              142
+55           7  0.062500000    0.02026141                 76               78
+56          10  0.062500000    0.02329748                160              172
+57           5  0.068493151    0.01468701                117              130
+58           5  0.039682540    0.02406943                103              108
+59           4  0.035714286    0.01957087                108              113
+60          10  0.075757576    0.02057201                122              130
+61           5  0.037878788    0.02206434                119              128
+62           5  0.035460993    0.02122203                121              128
+63           1  0.009174312    0.02448136                 61               65
+64          13  0.076923077    0.02136486                125              136
+65           2  0.019607843    0.01992648                100              105
+66           5  0.034722222    0.02278957                138              148
+67           6  0.034883721    0.02363627                182              190
+68           7  0.055118110    0.02252803                 91              101
+69           5  0.034246575    0.02183488                130              139
+70           7  0.045161290    0.02186240                136              148
+71           4  0.030303030    0.02284097                 18               20
+72           8  0.067796610    0.01851534                 30               32
+73           7  0.047619048    0.02357600                 67               78
+74           6  0.048000000    0.02138481                130              143
+75           9  0.068702290    0.01958102                105              114
+76          11  0.072847682    0.01921041                134              145
+77           5  0.045045045    0.01979666                 94               98
+78           8  0.059701493    0.01837510                113              120
+79           7  0.055118110    0.02140111                131              137
+80           5  0.043859649    0.01906753                 83               87
+81           8  0.063492063    0.02195230                127              136
+82           6  0.042857143    0.02177575                120              124
+83           6  0.042857143    0.02249609                115              121
+84           3  0.021897810    0.02321535                130              136
+85           3  0.021428571    0.02387237                125              136
+86           5  0.044642857    0.02202807                104              109
+87           9  0.058823529    0.02162778                153              160
+88           5  0.040650407    0.02061661                132              141
+89          14  0.089743590    0.01984821                134              145
+90           3  0.028037383    0.02175082                121              131
+91          10  0.076923077    0.02066609                  0                1
+92           9  0.074380165    0.01807518                103              117
+93           6  0.047244094    0.02130151                125              134
+94           4  0.026666667    0.02284265                139              145
+95           8  0.072727273    0.01986375                 83               88
+96           7  0.045454545    0.02295782                129              138
+97           6  0.054054054    0.02125233                 99              107
+98           4  0.025477707    0.02324809                108              117
+99          10  0.058823529    0.02220941                163              170
+100          6  0.054054054    0.01694676                 96              102
+    DEA.V.SVAall_FSR DEA.FDP.SVAall_FSR DEA.PAUC.SVAall_FSR DEA.NTP.RUVall_FSR
+1                 10         0.07246377         0.020507009                102
+2                  7         0.05384615         0.020309948                 22
+3                  0         0.00000000         0.004097129                161
+4                  7         0.07070707         0.019456773                 87
+5                  7         0.04761905         0.024184184                115
+6                 11         0.06832298         0.020984820                104
+7                  0         0.00000000         0.010166239                121
+8                  3         0.02678571         0.020060231                100
+9                 12         0.08955224         0.018393488                 99
+10                 3         0.02654867         0.020226996                 96
+11                 6         0.15384615         0.012537839                 97
+12                13         0.09090909         0.018975204                116
+13                12         0.08163265         0.019582552                132
+14                 5         0.03144654         0.023218957                140
+15                 6         0.05555556         0.020090461                 89
+16                 8         0.06349206         0.020476820                114
+17                 8         0.05333333         0.020751450                114
+18                 0         0.00000000         0.005556640                120
+19                 8         0.04819277         0.023931977                112
+20                 3         0.03030303         0.018893092                 91
+21                11         0.08148148         0.018749548                120
+22                 6         0.05405405         0.019279515                 92
+23                 6         0.05084746         0.021528040                 70
+24                 3         0.11111111         0.010387357                103
+25                 7         0.05000000         0.021159641                115
+26                 8         0.06557377         0.020155634                112
+27                12         0.08391608         0.018403574                123
+28                 2         0.01503759         0.021496110                114
+29                 0         0.00000000         0.009978667                113
+30                 4         0.07142857         0.014413427                 95
+31                 0         0.00000000         0.006158353                116
+32                 4         0.03846154         0.019321722                 80
+33                 3         0.02400000         0.023681104                108
+34                11         0.08800000         0.017660890                101
+35                12         0.08163265         0.020292111                123
+36                 2         0.02941176         0.015145894                102
+37                 6         0.04761905         0.019728678                103
+38                 0         0.00000000         0.005494971                 96
+39                14         0.09589041         0.018844438                  0
+40                 6         0.05217391         0.019929035                 93
+41                 0         0.00000000         0.006721613                  7
+42                 8         0.06896552         0.021452669                112
+43                10         0.08771930         0.017925317                 86
+44                 6         0.05309735         0.020610871                 98
+45                12         0.07947020         0.021180086                115
+46                 7         0.05468750         0.018947352                 94
+47                 6         0.04958678         0.020360558                108
+48                 5         0.04273504         0.019608001                 96
+49                 2         0.03125000         0.013870746                 87
+50                 7         0.04729730         0.019364679                138
+51                 4         0.03571429         0.020736379                103
+52                 8         0.05755396         0.019613605                112
+53                 5         0.04545455         0.018330650                124
+54                11         0.07746479         0.020069539                104
+55                 2         0.02564103         0.018449399                 30
+56                12         0.06976744         0.020806506                141
+57                13         0.10000000         0.016542202                106
+58                 5         0.04629630         0.018209918                  2
+59                 5         0.04424779         0.019626741                 99
+60                 8         0.06153846         0.020797912                107
+61                 9         0.07031250         0.020142703                 85
+62                 7         0.05468750         0.018330896                124
+63                 4         0.06153846         0.019967762                111
+64                11         0.08088235         0.018330530                130
+65                 5         0.04761905         0.018364347                 87
+66                10         0.06756757         0.016817425                130
+67                 8         0.04210526         0.024318853                158
+68                10         0.09900990         0.017096762                109
+69                 9         0.06474820         0.019633912                123
+70                12         0.08108108         0.017791266                121
+71                 2         0.10000000         0.010091369                101
+72                 2         0.06250000         0.013017328                 82
+73                11         0.14102564         0.011630667                109
+74                13         0.09090909         0.020436194                125
+75                 9         0.07894737         0.017446952                108
+76                11         0.07586207         0.019037713                122
+77                 4         0.04081633         0.017939040                 84
+78                 7         0.05833333         0.018793983                110
+79                 6         0.04379562         0.021447252                117
+80                 4         0.04597701         0.017784561                 77
+81                 9         0.06617647         0.022597394                 99
+82                 4         0.03225806         0.021336955                120
+83                 6         0.04958678         0.020423602                 79
+84                 6         0.04411765         0.020530940                 97
+85                11         0.08088235         0.020158799                111
+86                 5         0.04587156         0.021714715                100
+87                 7         0.04375000         0.022408964                119
+88                 9         0.06382979         0.018883030                114
+89                11         0.07586207         0.020149827                110
+90                10         0.07633588         0.017439529                 99
+91                 1         1.00000000         0.004218809                110
+92                14         0.11965812         0.017483639                 88
+93                 9         0.06716418         0.019648958                122
+94                 6         0.04137931         0.022438322                124
+95                 5         0.05681818         0.018137521                 71
+96                 9         0.06521739         0.019810061                106
+97                 8         0.07476636         0.018667510                 85
+98                 9         0.07692308         0.018623742                120
+99                 7         0.04117647         0.021858585                146
+100                6         0.05882353         0.016900156                 90
+    DEA.R.RUVall_FSR DEA.V.RUVall_FSR DEA.FDP.RUVall_FSR DEA.PAUC.RUVall_FSR
+1                109                7        0.064220183         0.020398820
+2                 22                0        0.000000000         0.012938899
+3                173               12        0.069364162         0.022628229
+4                 91                4        0.043956044         0.021528904
+5                118                3        0.025423729         0.023903432
+6                105                1        0.009523810         0.022422637
+7                127                6        0.047244094         0.021058251
+8                103                3        0.029126214         0.022503125
+9                102                3        0.029411765         0.022158686
+10                96                0        0.000000000         0.022558108
+11               111               14        0.126126126         0.015344215
+12               128               12        0.093750000         0.018503045
+13               145               13        0.089655172         0.019174161
+14               149                9        0.060402685         0.020830204
+15                95                6        0.063157895         0.021478893
+16               119                5        0.042016807         0.022428650
+17               121                7        0.057851240         0.021064033
+18               132               12        0.090909091         0.016976212
+19               114                2        0.017543860         0.023546542
+20                91                0        0.000000000         0.022688071
+21               127                7        0.055118110         0.021206178
+22                97                5        0.051546392         0.018954647
+23                70                0        0.000000000         0.021353837
+24               122               19        0.155737705         0.013724845
+25               121                6        0.049586777         0.021917282
+26               117                5        0.042735043         0.022812676
+27               129                6        0.046511628         0.021062781
+28               133               19        0.142857143         0.015061798
+29               118                5        0.042372881         0.022404235
+30               108               13        0.120370370         0.015266045
+31               140               24        0.171428571         0.013597389
+32                82                2        0.024390244         0.021178194
+33               111                3        0.027027027         0.023101294
+34               105                4        0.038095238         0.019406802
+35               129                6        0.046511628         0.023005687
+36               122               20        0.163934426         0.012292261
+37               105                2        0.019047619         0.022086279
+38               117               21        0.179487179         0.011603727
+39                 0                0        0.000000000         0.002559805
+40                98                5        0.051020408         0.022546814
+41                 8                1        0.125000000         0.005880900
+42               117                5        0.042735043         0.025233744
+43                89                3        0.033707865         0.022033985
+44               106                8        0.075471698         0.020780673
+45               120                5        0.041666667         0.022086235
+46                96                2        0.020833333         0.021712662
+47               116                8        0.068965517         0.016383969
+48               109               13        0.119266055         0.014921197
+49                90                3        0.033333333         0.019686836
+50               142                4        0.028169014         0.023330476
+51               108                5        0.046296296         0.023410151
+52               146               34        0.232876712         0.010476086
+53               128                4        0.031250000         0.022088746
+54               110                6        0.054545455         0.021199377
+55                33                3        0.090909091         0.011843774
+56               153               12        0.078431373         0.022302675
+57               111                5        0.045045045         0.020468602
+58                 2                0        0.000000000         0.001902385
+59               104                5        0.048076923         0.020879690
+60               114                7        0.061403509         0.020302503
+61                87                2        0.022988506         0.023129921
+62               127                3        0.023622047         0.022005575
+63               124               13        0.104838710         0.017861690
+64               136                6        0.044117647         0.022288709
+65                89                2        0.022471910         0.021822423
+66               145               15        0.103448276         0.014611649
+67               161                3        0.018633540         0.025767381
+68               115                6        0.052173913         0.022506070
+69               138               15        0.108695652         0.016045136
+70               127                6        0.047244094         0.021582232
+71               111               10        0.090090090         0.018043282
+72                86                4        0.046511628         0.017712407
+73               113                4        0.035398230         0.021874667
+74               144               19        0.131944444         0.017097685
+75               123               15        0.121951220         0.015991350
+76               131                9        0.068702290         0.018041717
+77                87                3        0.034482759         0.019539924
+78               114                4        0.035087719         0.023357837
+79               120                3        0.025000000         0.022538411
+80                80                3        0.037500000         0.016251362
+81               106                7        0.066037736         0.022670886
+82               123                3        0.024390244         0.023249033
+83                81                2        0.024691358         0.022649995
+84                98                1        0.010204082         0.023052213
+85               112                1        0.008928571         0.023854871
+86               102                2        0.019607843         0.023395210
+87               120                1        0.008333333         0.023045582
+88               120                6        0.050000000         0.020779815
+89               116                6        0.051724138         0.021042403
+90               116               17        0.146551724         0.013813935
+91               125               15        0.120000000         0.017173425
+92                92                4        0.043478261         0.019524855
+93               126                4        0.031746032         0.022792261
+94               127                3        0.023622047         0.023207237
+95                76                5        0.065789474         0.019662405
+96               108                2        0.018518519         0.023576630
+97                90                5        0.055555556         0.022207707
+98               145               25        0.172413793         0.013069316
+99               150                4        0.026666667         0.022612653
+100              100               10        0.100000000         0.014439433
+    DEA.NTP.OnlyLine DEA.R.OnlyLine DEA.V.OnlyLine DEA.FDP.OnlyLine
+1                116            124              8      0.064516129
+2                123            128              5      0.039062500
+3                168            173              5      0.028901734
+4                104            109              5      0.045871560
+5                123            128              5      0.039062500
+6                124            126              2      0.015873016
+7                125            131              6      0.045801527
+8                116            120              4      0.033333333
+9                101            104              3      0.028846154
+10                93             95              2      0.021052632
+11               111            115              4      0.034782609
+12               117            120              3      0.025000000
+13               136            141              5      0.035460993
+14               139            145              6      0.041379310
+15                91             97              6      0.061855670
+16               128            135              7      0.051851852
+17               116            122              6      0.049180328
+18               140            147              7      0.047619048
+19               134            141              7      0.049645390
+20               105            107              2      0.018691589
+21               127            134              7      0.052238806
+22                94             98              4      0.040816327
+23                76             78              2      0.025641026
+24               116            123              7      0.056910569
+25               108            113              5      0.044247788
+26               136            144              8      0.055555556
+27               118            123              5      0.040650407
+28               120            122              2      0.016393443
+29               128            133              5      0.037593985
+30               100            102              2      0.019607843
+31               126            132              6      0.045454545
+32                96             98              2      0.020408163
+33                99            104              5      0.048076923
+34               104            114             10      0.087719298
+35               133            142              9      0.063380282
+36               137            142              5      0.035211268
+37                99            100              1      0.010000000
+38               120            123              3      0.024390244
+39               118            124              6      0.048387097
+40               118            125              7      0.056000000
+41               113            123             10      0.081300813
+42               107            112              5      0.044642857
+43                93             99              6      0.060606061
+44                99            104              5      0.048076923
+45               123            129              6      0.046511628
+46               108            112              4      0.035714286
+47               126            131              5      0.038167939
+48               108            111              3      0.027027027
+49                85             88              3      0.034090909
+50               137            142              5      0.035211268
+51                99            101              2      0.019801980
+52               112            119              7      0.058823529
+53               140            144              4      0.027777778
+54               114            118              4      0.033898305
+55                94            102              8      0.078431373
+56               140            146              6      0.041095890
+57               125            132              7      0.053030303
+58               122            128              6      0.046875000
+59               108            113              5      0.044247788
+60               115            124              9      0.072580645
+61               105            108              3      0.027777778
+62               119            124              5      0.040322581
+63                94             96              2      0.020833333
+64               136            144              8      0.055555556
+65                99            104              5      0.048076923
+66               139            143              4      0.027972028
+67               165            172              7      0.040697674
+68               103            106              3      0.028301887
+69               113            116              3      0.025862069
+70               114            119              5      0.042016807
+71               123            128              5      0.039062500
+72                84             87              3      0.034482759
+73               116            119              3      0.025210084
+74               109            113              4      0.035398230
+75               103            110              7      0.063636364
+76               119            127              8      0.062992126
+77                85             85              0      0.000000000
+78               125            127              2      0.015748031
+79               124            131              7      0.053435115
+80                93             97              4      0.041237113
+81                94            101              7      0.069306931
+82               113            116              3      0.025862069
+83               107            111              4      0.036036036
+84               111            112              1      0.008928571
+85               118            121              3      0.024793388
+86                91             95              4      0.042105263
+87               124            127              3      0.023622047
+88               117            123              6      0.048780488
+89               116            121              5      0.041322314
+90               100            103              3      0.029126214
+91               117            129             12      0.093023256
+92                98            104              6      0.057692308
+93               127            134              7      0.052238806
+94               125            130              5      0.038461538
+95               100            108              8      0.074074074
+96               112            115              3      0.026086957
+97               103            107              4      0.037383178
+98               150            157              7      0.044585987
+99               139            144              5      0.034722222
+100               79             82              3      0.036585366
+    DEA.PAUC.OnlyLine DEA.NTP.All DEA.R.All DEA.V.All DEA.FDP.All DEA.PAUC.All
+1          0.01893036           0         0         0         0.0  0.004087416
+2          0.02068495           0         0         0         0.0  0.004034596
+3          0.02434257           0         0         0         0.0  0.005202050
+4          0.02026575           0         0         0         0.0  0.003179292
+5          0.02205265           0         0         0         0.0  0.005212990
+6          0.02280005           0         0         0         0.0  0.004750935
+7          0.02197865           0         1         1         1.0  0.004523584
+8          0.02217605           0         0         0         0.0  0.004165134
+9          0.02217100           1         1         0         0.0  0.004616507
+10         0.02103474           1         1         0         0.0  0.003986654
+11         0.01940774           0         0         0         0.0  0.003799712
+12         0.02364506           0         1         1         1.0  0.004043852
+13         0.02292516           0         0         0         0.0  0.003912736
+14         0.02297399           1         1         0         0.0  0.005553007
+15         0.02112116           0         0         0         0.0  0.004013158
+16         0.02190789           1         1         0         0.0  0.004585062
+17         0.02093900           0         0         0         0.0  0.003360949
+18         0.02384070           2         2         0         0.0  0.004372127
+19         0.02261086           1         1         0         0.0  0.003696018
+20         0.02298757           0         0         0         0.0  0.004467455
+21         0.02182716           0         0         0         0.0  0.003686310
+22         0.01758699           0         0         0         0.0  0.003569538
+23         0.02028734           0         0         0         0.0  0.004998697
+24         0.01928597           0         0         0         0.0  0.003578394
+25         0.02069870           0         0         0         0.0  0.003906090
+26         0.02207358           0         0         0         0.0  0.003479585
+27         0.02099912           0         0         0         0.0  0.004031916
+28         0.02307720           0         0         0         0.0  0.003612769
+29         0.02265327           1         1         0         0.0  0.005377385
+30         0.02024617           0         0         0         0.0  0.004708964
+31         0.02103089           0         0         0         0.0  0.004102338
+32         0.01959489           0         0         0         0.0  0.004185897
+33         0.02202588           0         0         0         0.0  0.004286454
+34         0.01881385           0         0         0         0.0  0.003841830
+35         0.02339138           0         0         0         0.0  0.005917160
+36         0.02389901           1         1         0         0.0  0.004274400
+37         0.02344617           0         0         0         0.0  0.004977613
+38         0.02082771           0         0         0         0.0  0.003801768
+39         0.02207325           0         0         0         0.0  0.004051899
+40         0.02117245           0         0         0         0.0  0.005180419
+41         0.01951110           0         0         0         0.0  0.002972523
+42         0.02272849           0         0         0         0.0  0.005162733
+43         0.02052993           0         0         0         0.0  0.003231973
+44         0.02047006           0         0         0         0.0  0.004627437
+45         0.02201693           0         0         0         0.0  0.006159982
+46         0.02158401           0         0         0         0.0  0.004102209
+47         0.02169049           0         0         0         0.0  0.004943689
+48         0.02360002           0         0         0         0.0  0.003483308
+49         0.01941748           0         0         0         0.0  0.003462456
+50         0.02231323           1         1         0         0.0  0.005845516
+51         0.02282293           1         1         0         0.0  0.004162456
+52         0.02097960           0         0         0         0.0  0.004430985
+53         0.02140226           0         0         0         0.0  0.004352096
+54         0.02106162           0         0         0         0.0  0.004641213
+55         0.01874214           0         0         0         0.0  0.004408719
+56         0.02268397           1         1         0         0.0  0.004894872
+57         0.02130913           0         0         0         0.0  0.004145042
+58         0.02280804           0         0         0         0.0  0.004132816
+59         0.02034890           0         0         0         0.0  0.004958717
+60         0.02044254           1         1         0         0.0  0.004383375
+61         0.02182310           1         1         0         0.0  0.004561470
+62         0.02115032           0         0         0         0.0  0.003375870
+63         0.02412897           0         0         0         0.0  0.004275463
+64         0.02140181           0         0         0         0.0  0.004668516
+65         0.02100837           0         0         0         0.0  0.004844736
+66         0.02196467           1         2         1         0.5  0.004533089
+67         0.02414170           0         0         0         0.0  0.004496689
+68         0.02118428           0         0         0         0.0  0.004600863
+69         0.02138764           0         0         0         0.0  0.003449182
+70         0.02155542           0         0         0         0.0  0.004631467
+71         0.02319621           0         0         0         0.0  0.003831181
+72         0.01782426           0         0         0         0.0  0.003126502
+73         0.02390667           0         0         0         0.0  0.004181333
+74         0.02338368           2         2         0         0.0  0.004143139
+75         0.01974726           1         1         0         0.0  0.003896472
+76         0.01870839           0         0         0         0.0  0.002996020
+77         0.02040690           0         0         0         0.0  0.003607701
+78         0.02368497           0         0         0         0.0  0.004530609
+79         0.02130475           0         0         0         0.0  0.003227334
+80         0.01906614           0         0         0         0.0  0.003859958
+81         0.02083495           0         0         0         0.0  0.004048858
+82         0.02233951           0         0         0         0.0  0.004106038
+83         0.02050708           0         0         0         0.0  0.002904615
+84         0.02270605           0         0         0         0.0  0.004183113
+85         0.02277405           1         1         0         0.0  0.004914187
+86         0.02196013           0         0         0         0.0  0.004582538
+87         0.02137313           0         0         0         0.0  0.004172502
+88         0.02094816           0         0         0         0.0  0.004775374
+89         0.02176847           0         0         0         0.0  0.004038427
+90         0.02137718           0         0         0         0.0  0.003949967
+91         0.02123072           0         0         0         0.0  0.004652286
+92         0.01918882           0         0         0         0.0  0.003535330
+93         0.02180948           0         0         0         0.0  0.004895329
+94         0.02243284           1         1         0         0.0  0.005080866
+95         0.01842612           1         1         0         0.0  0.004014900
+96         0.02234035           0         0         0         0.0  0.004769288
+97         0.02172445           0         0         0         0.0  0.005574906
+98         0.02248344           0         0         0         0.0  0.004653005
+99         0.02341914           0         0         0         0.0  0.005039222
+100        0.01886953           0         0         0         0.0  0.002842880
+    DEA.NTP.Oracle DEA.R.Oracle DEA.V.Oracle DEA.FDP.Oracle DEA.PAUC.Oracle
+1              142          154           12    0.077922078      0.02143189
+2              132          138            6    0.043478261      0.02213842
+3              185          198           13    0.065656566      0.02477768
+4              107          113            6    0.053097345      0.02125695
+5              151          158            7    0.044303797      0.02482473
+6              151          157            6    0.038216561      0.02252058
+7              147          157           10    0.063694268      0.02123530
+8              117          121            4    0.033057851      0.02264020
+9              121          126            5    0.039682540      0.02196297
+10             126          127            1    0.007874016      0.02337920
+11             127          134            7    0.052238806      0.02038089
+12             135          145           10    0.068965517      0.02346071
+13             171          177            6    0.033898305      0.02344542
+14             168          173            5    0.028901734      0.02458048
+15             121          128            7    0.054687500      0.02223273
+16             142          148            6    0.040540541      0.02254913
+17             151          159            8    0.050314465      0.02128692
+18             148          156            8    0.051282051      0.02344631
+19             161          166            5    0.030120482      0.02444719
+20             106          107            1    0.009345794      0.02344929
+21             146          155            9    0.058064516      0.02158423
+22             113          121            8    0.066115702      0.02003353
+23             108          113            5    0.044247788      0.02164107
+24             140          150           10    0.066666667      0.02086404
+25             146          157           11    0.070063694      0.02175569
+26             154          163            9    0.055214724      0.02334117
+27             146          157           11    0.070063694      0.02132406
+28             156          160            4    0.025000000      0.02280034
+29             150          159            9    0.056603774      0.02264537
+30             100          108            8    0.074074074      0.02002952
+31             142          148            6    0.040540541      0.02127041
+32             111          116            5    0.043103448      0.02134808
+33             138          142            4    0.028169014      0.02435617
+34             123          133           10    0.075187970      0.01905131
+35             148          156            8    0.051282051      0.02323079
+36             156          162            6    0.037037037      0.02379819
+37             129          135            6    0.044444444      0.02202068
+38             132          136            4    0.029411765      0.02191639
+39             145          159           14    0.088050314      0.02284092
+40             129          135            6    0.044444444      0.02335875
+41             120          131           11    0.083969466      0.01993692
+42             132          139            7    0.050359712      0.02493798
+43             116          122            6    0.049180328      0.02147231
+44             130          139            9    0.064748201      0.02153028
+45             151          162           11    0.067901235      0.02288516
+46             135          139            4    0.028776978      0.02216625
+47             136          143            7    0.048951049      0.02234358
+48             119          127            8    0.062992126      0.02124524
+49             121          128            7    0.054687500      0.02008695
+50             161          166            5    0.030120482      0.02355403
+51             129          135            6    0.044444444      0.02332493
+52             143          153           10    0.065359477      0.02120683
+53             156          163            7    0.042944785      0.02252252
+54             134          143            9    0.062937063      0.02113315
+55              98          104            6    0.057692308      0.02008658
+56             180          198           18    0.090909091      0.02264175
+57             143          151            8    0.052980132      0.02125676
+58             128          132            4    0.030303030      0.02474199
+59             121          128            7    0.054687500      0.02072185
+60             149          158            9    0.056962025      0.02127218
+61             122          129            7    0.054263566      0.02318920
+62             142          146            4    0.027397260      0.02189933
+63             137          142            5    0.035211268      0.02354395
+64             148          156            8    0.051282051      0.02312223
+65             116          122            6    0.049180328      0.02131974
+66             155          164            9    0.054878049      0.02331839
+67             184          190            6    0.031578947      0.02589634
+68             128          137            9    0.065693431      0.02269960
+69             134          140            6    0.042857143      0.02166141
+70             147          158           11    0.069620253      0.02162781
+71             126          132            6    0.045454545      0.02241335
+72             112          119            7    0.058823529      0.01865781
+73             139          143            4    0.027972028      0.02457467
+74             134          143            9    0.062937063      0.02264399
+75             143          153           10    0.065359477      0.02147858
+76             134          145           11    0.075862069      0.01909394
+77             110          114            4    0.035087719      0.01983429
+78             139          147            8    0.054421769      0.02276209
+79             140          147            7    0.047619048      0.02279491
+80             106          113            7    0.061946903      0.01944772
+81             135          144            9    0.062500000      0.02319622
+82             144          150            6    0.040000000      0.02376559
+83             116          121            5    0.041322314      0.02331256
+84             123          126            3    0.023809524      0.02293417
+85             142          147            5    0.034013605      0.02426136
+86             125          130            5    0.038461538      0.02350336
+87             151          158            7    0.044303797      0.02247130
+88             142          150            8    0.053333333      0.02198522
+89             150          162           12    0.074074074      0.02134402
+90             123          130            7    0.053846154      0.02289640
+91             134          144           10    0.069444444      0.02227161
+92             120          135           15    0.111111111      0.01956512
+93             139          146            7    0.047945205      0.02236254
+94             159          164            5    0.030487805      0.02364446
+95              90           95            5    0.052631579      0.01983288
+96             151          158            7    0.044303797      0.02359811
+97             129          136            7    0.051470588      0.02290266
+98             155          163            8    0.049079755      0.02413909
+99             177          188           11    0.058510638      0.02255889
+100            109          118            9    0.076271186      0.01905861
+
+      user     system    elapsed 
+112791.290   4179.496   8701.458 
