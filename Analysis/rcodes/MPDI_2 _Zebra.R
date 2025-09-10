@@ -187,8 +187,8 @@ ggplot(plot_data_ordered, aes(x = Method, y = Value)) +
     plot.title = element_text(hjust = 0.5)
   )
 
-
 ## Rcodes for surrogate variable analysis results
+
 library(tidyr)
 library(ggplot2)
 library(dplyr)
