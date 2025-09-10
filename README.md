@@ -3,9 +3,10 @@ The `FSRnSimBS_sva` function integrates variable selection (FSR) with surrogate 
 
 # Data Analysis and Simulation Based on the RFI RNA-seq Dataset
 - Codes for RFI RNA-seq data analysis are [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/Real_analysis_RFI.R).
-- Codes for simulation study is  [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva.R) and [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva.sh)
-
+- Codes for simulation study are [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva.R) and [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva.sh)
+ - Codes to reproduce the tables and figures for the RFI RNA-Seq data analysis is [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/MDPI_2.R)
 
 # Data Analysis and Simulation Based on the Zebrafish RNA-seq Dataset
 - Zebrafish RNA-seq data is  [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/extra-rna-seq-data).
-- Codes for simulation study is [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva-zebra.R).and [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva-zebra.sh).
+- Codes for simulation study are [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva-zebra.R).and [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva-zebra.sh).
+ - Codes to reproduce the tables and figures for the RFI RNA-Seq data analysis is [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/MPDI_2 _Zebra.R)
