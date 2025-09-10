@@ -4,6 +4,7 @@ The `FSRnSimBS_sva` function integrates variable selection (FSR) with surrogate 
 # Algorithm of the Integrated Methods
 ## FSR$\_$sva
 \begin{enumerate}
+
 \item[1.] Read the count data, which is a matrix containing genes as rows ($g=1,2,\ldots,G$) and observations as columns ($i=1,2,\ldots,n$), along with the FixCov (the primary variable of interest) and the VarCov (variables subject to selection) in data frames.
 
 \item[2.] Keep only the genes for which at least two observations have at least five counts. Given the library size $R_i$ as the 75th percentile for each sample i, we transform the filtered counts as log counts using the equation below:
