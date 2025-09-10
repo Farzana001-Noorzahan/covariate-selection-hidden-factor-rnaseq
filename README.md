@@ -3,4 +3,4 @@ The `FSRnSimBS_sva` function integrates variable selection (FSR) with surrogate 
 
 # Data Analysis and Simulation Based on the RFI RNA-seq Dataset
 - Codes for RFI RNA-seq data analysis are  and here.
-- **RFI RNA-seq data analysis**: [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-maseg/blob/main/Real_analysis_RFI.R)
+- **RFI RNA-seq data analysis**: [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/Analysis/main/Real_analysis_RFI.R)
