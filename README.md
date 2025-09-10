@@ -7,5 +7,5 @@ The `FSRnSimBS_sva` function integrates variable selection (FSR) with surrogate 
 
 
 # Data Analysis and Simulation Based on the Zebrafish RNA-seq Dataset
-- Zebrafish RNA-seq data is  [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva-zebra.R).
-- Codes for simulation study is  [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva.R) and [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva.sh)
+- Zebrafish RNA-seq data is  [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/extra-rna-seq-data).
+- Codes for simulation study is [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva-zebra.R).and [here](https://github.com/Farzana001-Noorzahan/covariate-selection-hidden-factor-rnaseq/blob/main/Analysis/rcodes/4-Simulation-sva-zebra.sh).
