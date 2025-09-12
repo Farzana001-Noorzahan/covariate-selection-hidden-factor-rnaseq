@@ -447,6 +447,157 @@ results <- calculate_r_squared()
 final_table <- create_summary_table(results)
 final_table
 
+##codes for creating Tables for the average $R^2$(SD) value for the three methods based on the number of surrogate variables estimated.
 
+library(dplyr)
+library(knitr) 
+library(kableExtra)
 
+# 1. Define missing relevant covariates for Zebrafish 
+covariate_map <- list(
+  `1` = "Batch"  # Only one model size with "Batch" covariate
+)
 
+# 2. Corrected analysis function (
+    calculate_r_squared <- function(model_sizes = 1) {  
+      base_dir <- "./SimulationOutsvazebra"  
+      
+      all_results <- list()
+      
+      for (size in model_sizes) {
+        cov_cols <- covariate_map[[as.character(size)]]
+        if (is.null(cov_cols)) next
+        
+        model_dir <- file.path(base_dir,
+                               sprintf("ModelSize_%s_nGene_2000_B_100_alpha0_0.05_ideal_FALSE", size))
+        
+        if (!dir.exists(model_dir)) next
+        
+        rep_files <- list.files(model_dir, pattern = "nrep_\\d+\\.rds$", full.names = TRUE)
+        if (length(rep_files) == 0) next
+        
+        for (method in c("FSR_sva", "SVA0", "SVAall_FSR")) {
+          cov_name <- switch(method,
+                             "FSR_sva" = "FSRsvacov",
+                             "SVA0" = "svacov0",
+                             "SVAall_FSR" = "svacovall",
+                             NA)
+          
+          if (is.na(cov_name)) next
+          
+          # Process all replicates for this method
+          method_results <- lapply(rep_files, function(rep_file) {
+            dat <- tryCatch({
+              rep_data <- readRDS(rep_file)
+              if (!cov_name %in% names(rep_data) || !"VarCov0" %in% names(rep_data)) return(NULL)
+              rep_data
+            }, error = function(e) NULL)
+            
+            if (is.null(dat)) return(NULL)
+            
+            rsq <- tryCatch({
+              cov_mat <- dat[[cov_name]]
+              if (ncol(cov_mat) == 0) return(NULL)
+              apply(cov_mat, 2, function(x) {
+                fit <- try(lm(x ~ ., data = dat$VarCov0[, cov_cols, drop = FALSE]), silent = TRUE)
+                if (inherits(fit, "try-error")) return(NA)
+                summary(fit)$r.squared
+              })
+            }, error = function(e) NULL)
+            
+            if (is.null(rsq)) return(NULL)
+            
+            data.frame(
+              ModelSize = size,
+              Method = method,
+              Num_Surrogates = ncol(dat[[cov_name]]),
+              R_squared = rsq,
+              Replicate = basename(rep_file),  # Store replicate identifier
+              stringsAsFactors = FALSE
+            )
+          })
+          
+          method_df <- bind_rows(method_results)
+          if (nrow(method_df) > 0) {
+            all_results[[length(all_results) + 1]] <- method_df
+          }
+        }
+      }
+      
+      # Combine and aggregate all results
+      if (length(all_results) > 0) {
+        final_df <- bind_rows(all_results) %>%
+          group_by(ModelSize, Method, Num_Surrogates) %>%
+          summarise(
+            Mean_R_squared = mean(R_squared, na.rm = TRUE),
+            SD_R_squared = sd(R_squared, na.rm = TRUE),
+            Num_Replicates = n_distinct(Replicate),  # Count unique replicates
+            .groups = "drop"
+          ) %>%
+          filter(!is.na(Mean_R_squared))
+        
+        if (nrow(final_df) > 0) {
+          return(final_df)
+        }
+      }
+      
+      return(NULL)
+    }
+    
+    display_results <- function(results) {
+      if (is.null(results) || nrow(results) == 0) {
+        cat("No results to display\n")
+        return()
+      }
+      
+      # Split by model size for better PDF formatting
+      results_split <- split(results, results$ModelSize)
+      
+      for (model_data in results_split) {
+        size <- unique(model_data$ModelSize)
+        
+        # Format numbers consistently and rename columns
+        formatted_table <- model_data %>%
+          mutate(
+            Method = case_when(
+              Method == "FSR_sva" ~ "FSR\\_sva",
+              Method == "SVAall_FSR" ~ "SVAall\\_FSR",
+              TRUE ~ Method
+            ),
+            across(c(Mean_R_squared, SD_R_squared), ~ sprintf("%.3f", .))
+          ) %>%
+          select(-ModelSize) %>%
+          rename(
+            "Number of surrogate variables estimated" = Num_Surrogates,
+            "$R^2$" = Mean_R_squared,  # Math mode for R²
+            "SD($R^2$)" = SD_R_squared,
+            "Frequency" = Num_Replicates
+          )
+        
+        # Create compact table
+        print(
+          kable(formatted_table,
+                caption = paste("Average $R^2$ values with standard deviations, grouped by number of estimated surrogate variables for $k_R = $", size),
+                format = "latex",
+                linesep = "\\hline",
+                escape = FALSE,
+                align = c("l", "c", "c", "c", "c")) %>%
+            kable_styling(
+              bootstrap_options = c("striped", "scale_down"),
+              latex_options = "HOLD_position",
+              font_size = 9,
+              full_width = FALSE
+            ) %>%
+            column_spec(1, width = "2cm", border_left = TRUE) %>%
+            column_spec(2, width = "3cm") %>%
+            column_spec(3:4, width = "2.5cm") %>%
+            column_spec(5, width = "1.5cm", border_right = TRUE)
+        )
+        
+        cat("\\newpage\n")
+      }
+    }
+    
+    # 4. Run analysis and display
+    r_squared_results <- calculate_r_squared()
+    display_results(r_squared_results)
